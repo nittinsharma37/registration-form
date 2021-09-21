@@ -1,0 +1,81 @@
+body {
+    min-width: 1280px;
+    padding: auto;
+    text-align: center;
+}
+
+.alumni-heading {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 2%;
+    color: #A25541;
+}
+
+.alumni-heading p {
+    font-size: 0.8em;
+}
+
+.registrationform {
+    margin: 2%;
+    padding: 1%;
+}
+
+.education-form {
+    text-align: left;
+    min-height: 30%;
+    padding: auto;
+}
+
+.present-status {
+    text-align: left;
+    min-height: 30%;
+    padding: auto;
+}
+
+.higher-studies {
+    text-align: left;
+    min-height: 30%;
+    padding: auto;
+}
+
+.form-heading {
+    text-align: left;
+    font-size: 1em;
+    color: #A25541;
+    text-decoration: underline;
+}
+
+label {
+    margin: 10px;
+}
+
+input[type=text], input[type=number], input[type=date], input[type=email], select {
+    min-width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type=file] {
+    min-width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.register-btn>input[type=submit] {
+    background-color: #A25541;
+    /* Green */
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}

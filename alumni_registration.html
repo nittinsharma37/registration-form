@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDC Billawar alumni registration</title>
+    <link rel="stylesheet" href="registration_form.css">
+</head>
+
+<body>
+    <div class="alumni-heading">
+        <h1>Alumni Registration</h1>
+        <p> The information provided here will be confidential.</p>
+    </div>
+    <form action="#" name="registrationform" class="registrationform">
+        <!-- Education form here -->
+        <div class="education-form">
+            <p class="form-heading">Education</p>
+            <div class="form-group">
+                <label for="firstname">First Name : </label>
+                <input type="text" name="firstname" id="" placeholder="first name">
+                <label for="lastname">Last Name : </label>
+                <input type="text" name="lastname" id="" placeholder="Last name">
+                <label for="lastname">Mobile No. : </label>
+                <input type="number" name="mobile" id=""><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="">
+                <span class="course-completed">
+                    <label for="Course-completed">Course Completed :</label>
+                    <select name="courses" id="">
+                        <option value="">Select</option>
+                        <option value="Bsc">BSc</option>
+                        <option value="BA">BA</option>
+                        <option value="BCA">BCA</option>
+                        <option value="BCom">BCom</option>
+                    </select>
+                </span>
+                <label for="year-of-completion">Year of completion :</label>
+                <input type="number" min="1900" max="2099" step="1" value="2021" /><br>
+                <label for="Dob">Date of birth: </label>
+                <input type="date" name="dob" id="">
+                <label for="address">Address : </label>
+                <input type="text" name="address" id=""><br>
+            </div>
+        </div>
+        <!-- Present status ............ -->
+        <div class="present-status">
+            <p class="form-heading">Present Status</p>
+            <div class="form-group">
+                <span class="employer=type">
+                    <label for="Employertype">Employer Type :</label>
+                    <select name="employertype" id="">
+                        <option value="">Select</option>
+                        <option value="privatesector">Private Sector</option>
+                        <option value="govtemployee">Government Employee</option>
+                        <option value="contractual">Contractual</option>
+                        <option value="yettobeplaced">Yet to be placed</option>
+                        <option value="homemaker">Home maker</option>
+                    </select>
+                </span>
+                <label for="employername">Employer name : </label>
+                <input type="text" name="employername" id="">
+                <label for="designation">Designation : </label>
+                <input type="text" name="designation" id=""><br>
+                <label for="idproof">Id proof for employment:</label>
+                <input type="file" id="myfile" name="idprooffile">
+            </div>
+        </div>
+        <div class="higher-studies">
+            <p class="form-heading">Higher Education details</p>
+            <div class="form-group">
+
+                <span class="course-pursuing">
+                    <label for="presentstatus">Present Status :</label>
+                    <select name="coursepursuing" id="">
+                        <option value="">Select</option>
+                        <option value="pursuing">Pursuing </option>
+                        <option value="completed">Completed</option>
+
+                    </select>
+                </span>
+                <label for="university">University / Institution : </label>
+                <input type="text" name="university" id="">
+                <label for="course">Course : </label>
+                <input type="text" name="course" id=""><br>
+                <label for="studyproof">Proof of higher study:</label>
+                <input type="file" id="myfile" name="studyprooffile">
+
+            </div>
+        </div>
+        <div class="register-btn">
+            <input type="submit" value="submit" name="Submit">
+        </div>
+        </form>
+</body>
+
+</html>
